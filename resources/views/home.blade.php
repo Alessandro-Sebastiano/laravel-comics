@@ -3,7 +3,7 @@
 
 @section('content')
     <div class="containe-fluid bg-dark">
-        <div class="container-lg position-relative">
+        <div class="container-lg position-relative py-3">
             <span
                 class="text-white py-1 px-4 bg-primary position-absolute top-0 translate-middle-y fs-2 text-uppercase fw-bold">Current
                 Series</span>
@@ -18,6 +18,10 @@
                         </div>
                     </div>
                 @endforeach
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-primary rounded-0 text-uppercase px-5 py-2 fw-bold">Load
+                    More</button>
             </div>
         </div>
     </div>
