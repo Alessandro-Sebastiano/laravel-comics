@@ -16,6 +16,9 @@ a {
     height: 378px;
     background-image: url('../img/jumbotron.jpg');
     background-size: cover;
-    background-attachment: fixed;
-    background-position: 0 8rem;
+}
+
+
+.fit {
+    object-fit: cover;
 }
